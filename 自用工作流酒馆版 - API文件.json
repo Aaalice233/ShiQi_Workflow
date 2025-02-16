@@ -1,0 +1,354 @@
+{
+  "3": {
+    "inputs": {
+      "seed": 777693796350871,
+      "steps": 80,
+      "cfg": 5.5,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 1,
+      "latent_image": [
+        "5",
+        0
+      ],
+      "model": [
+        "42",
+        0
+      ],
+      "positive": [
+        "39",
+        1
+      ],
+      "negative": [
+        "43",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "K采样器"
+    }
+  },
+  "5": {
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent图像"
+    }
+  },
+  "7": {
+    "inputs": {
+      "text": "负面",
+      "clip": [
+        "14",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码"
+    }
+  },
+  "8": {
+    "inputs": {
+      "samples": [
+        "48",
+        0
+      ],
+      "vae": [
+        "14",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "14": {
+    "inputs": {
+      "ckpt_name": "wai.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Checkpoint加载器（简易）"
+    }
+  },
+  "23": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "25": {
+    "inputs": {
+      "model_name": "sam_vit_b_01ec64.pth",
+      "device_mode": "AUTO"
+    },
+    "class_type": "SAMLoader",
+    "_meta": {
+      "title": "SAMLoader (Impact)"
+    }
+  },
+  "26": {
+    "inputs": {
+      "model_name": "segm/person_yolov8m-seg.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "30": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "35": {
+    "inputs": {
+      "guide_size": 1024,
+      "guide_size_for": true,
+      "max_size": 1024,
+      "seed": 838816117756455,
+      "steps": 20,
+      "cfg": 5.5,
+      "sampler_name": "euler",
+      "scheduler": "AYS SDXL",
+      "denoise": 0.4,
+      "feather": 5,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 10,
+      "bbox_crop_factor": 3,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7000000000000001,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 20,
+      "tiled_encode": true,
+      "tiled_decode": false,
+      "image": [
+        "8",
+        0
+      ],
+      "bbox_detector": [
+        "23",
+        0
+      ],
+      "sam_model_opt": [
+        "25",
+        0
+      ],
+      "segm_detector_opt": [
+        "26",
+        1
+      ],
+      "model": [
+        "42",
+        0
+      ],
+      "clip": [
+        "14",
+        1
+      ],
+      "vae": [
+        "14",
+        2
+      ],
+      "positive": [
+        "39",
+        1
+      ],
+      "negative": [
+        "43",
+        0
+      ]
+    },
+    "class_type": "FaceDetailer",
+    "_meta": {
+      "title": "FaceDetailer"
+    }
+  },
+  "39": {
+    "inputs": {
+      "positive": "正面",
+      "打开可视化PromptUI": "",
+      "model": [
+        "14",
+        0
+      ],
+      "clip": [
+        "14",
+        1
+      ]
+    },
+    "class_type": "WeiLinComfyUIPromptToLorasOnly",
+    "_meta": {
+      "title": "WeiLin 正向提示词Lora自动加载"
+    }
+  },
+  "40": {
+    "inputs": {
+      "Skimming_CFG": 5.5,
+      "model": [
+        "39",
+        0
+      ]
+    },
+    "class_type": "Skimmed CFG - linear interpolation",
+    "_meta": {
+      "title": "Skimmed CFG - linear interpolation"
+    }
+  },
+  "41": {
+    "inputs": {
+      "method": "from cond",
+      "model": [
+        "40",
+        0
+      ]
+    },
+    "class_type": "Support empty uncond",
+    "_meta": {
+      "title": "Support empty uncond"
+    }
+  },
+  "42": {
+    "inputs": {
+      "object_to_patch": "diffusion_model",
+      "residual_diff_threshold": 0.2,
+      "start": 0,
+      "end": 1,
+      "max_consecutive_cache_hits": 4,
+      "model": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "ApplyFBCacheOnModel",
+    "_meta": {
+      "title": "Apply First Block Cache"
+    }
+  },
+  "43": {
+    "inputs": {
+      "start": 0,
+      "end": 0.7000000000000001,
+      "conditioning": [
+        "7",
+        0
+      ]
+    },
+    "class_type": "ConditioningSetTimestepRange",
+    "_meta": {
+      "title": "设置条件时间"
+    }
+  },
+  "44": {
+    "inputs": {
+      "CONDITIONING": [
+        "43",
+        0
+      ]
+    },
+    "class_type": "Prompts Everywhere",
+    "_meta": {
+      "title": "Prompts Everywhere"
+    }
+  },
+  "45": {
+    "inputs": {
+      "MODEL": [
+        "42",
+        0
+      ],
+      "VAE": [
+        "14",
+        2
+      ],
+      "CLIP": [
+        "14",
+        1
+      ]
+    },
+    "class_type": "Anything Everywhere3",
+    "_meta": {
+      "title": "Anything Everywhere3"
+    }
+  },
+  "48": {
+    "inputs": {
+      "upscale_factor": 1.5,
+      "steps": 1,
+      "temp_prefix": "",
+      "step_mode": "simple",
+      "samples": [
+        "3",
+        0
+      ],
+      "upscaler": [
+        "49",
+        0
+      ]
+    },
+    "class_type": "IterativeLatentUpscale",
+    "_meta": {
+      "title": "Iterative Upscale (Latent/on Pixel Space)"
+    }
+  },
+  "49": {
+    "inputs": {
+      "scale_method": "lanczos",
+      "seed": 0,
+      "steps": 20,
+      "cfg": 5.5,
+      "sampler_name": "euler",
+      "scheduler": "AYS SDXL",
+      "denoise": 0.4,
+      "use_tiled_vae": false,
+      "tile_size": 1024,
+      "model": [
+        "42",
+        0
+      ],
+      "vae": [
+        "14",
+        2
+      ],
+      "positive": [
+        "39",
+        1
+      ],
+      "negative": [
+        "43",
+        0
+      ]
+    },
+    "class_type": "PixelKSampleUpscalerProvider",
+    "_meta": {
+      "title": "PixelKSampleUpscalerProvider"
+    }
+  }
+}
