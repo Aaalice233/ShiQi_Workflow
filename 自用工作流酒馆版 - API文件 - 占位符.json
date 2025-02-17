@@ -1,0 +1,447 @@
+{
+    "3": {
+        "inputs": {
+            "seed": "%seed%",
+            "steps": "%steps%",
+            "cfg": "%cfg_scale%",
+            "sampler_name": "%sampler_name%",
+            "scheduler": "normal",
+            "denoise": 1,
+            "latent_image": [
+                "5",
+                0
+            ],
+            "model": [
+                "58",
+                1
+            ],
+            "positive": [
+                "58",
+                2
+            ],
+            "negative": [
+                "58",
+                3
+            ]
+        },
+        "class_type": "KSampler",
+        "_meta": {
+            "title": "K采样器"
+        }
+    },
+    "5": {
+        "inputs": {
+            "width": "%width%",
+            "height": "%height%",
+            "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+            "title": "空Latent图像"
+        }
+    },
+    "8": {
+        "inputs": {
+            "samples": [
+                "48",
+                0
+            ],
+            "vae": [
+                "58",
+                5
+            ]
+        },
+        "class_type": "VAEDecode",
+        "_meta": {
+            "title": "VAE解码"
+        }
+    },
+    "30": {
+        "inputs": {
+            "filename_prefix": "ComfyUI",
+            "images": [
+                "67",
+                1
+            ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+            "title": "保存图像"
+        }
+    },
+    "40": {
+        "inputs": {
+            "Skimming_CFG": 5.5,
+            "model": [
+                "56",
+                0
+            ]
+        },
+        "class_type": "Skimmed CFG - linear interpolation",
+        "_meta": {
+            "title": "Skimmed CFG - linear interpolation"
+        }
+    },
+    "41": {
+        "inputs": {
+            "method": "from cond",
+            "model": [
+                "40",
+                0
+            ]
+        },
+        "class_type": "Support empty uncond",
+        "_meta": {
+            "title": "Support empty uncond"
+        }
+    },
+    "42": {
+        "inputs": {
+            "object_to_patch": "diffusion_model",
+            "residual_diff_threshold": 0.2,
+            "start": 0,
+            "end": 1,
+            "max_consecutive_cache_hits": 4,
+            "model": [
+                "41",
+                0
+            ]
+        },
+        "class_type": "ApplyFBCacheOnModel",
+        "_meta": {
+            "title": "Apply First Block Cache"
+        }
+    },
+    "43": {
+        "inputs": {
+            "start": 0,
+            "end": 0.7000000000000001,
+            "conditioning": [
+                "55",
+                3
+            ]
+        },
+        "class_type": "ConditioningSetTimestepRange",
+        "_meta": {
+            "title": "设置条件时间"
+        }
+    },
+    "44": {
+        "inputs": {
+            "CONDITIONING": [
+                "58",
+                3
+            ]
+        },
+        "class_type": "Prompts Everywhere",
+        "_meta": {
+            "title": "Prompts Everywhere"
+        }
+    },
+    "45": {
+        "inputs": {
+            "MODEL": [
+                "58",
+                1
+            ],
+            "VAE": [
+                "58",
+                5
+            ],
+            "CLIP": [
+                "58",
+                6
+            ]
+        },
+        "class_type": "Anything Everywhere3",
+        "_meta": {
+            "title": "Anything Everywhere3"
+        }
+    },
+    "48": {
+        "inputs": {
+            "upscale_factor": 1.5,
+            "steps": 1,
+            "temp_prefix": "",
+            "step_mode": "simple",
+            "samples": [
+                "3",
+                0
+            ],
+            "upscaler": [
+                "49",
+                0
+            ]
+        },
+        "class_type": "IterativeLatentUpscale",
+        "_meta": {
+            "title": "Iterative Upscale (Latent/on Pixel Space)"
+        }
+    },
+    "49": {
+        "inputs": {
+            "scale_method": "lanczos",
+            "seed": "%seed%",
+            "steps": 15,
+            "cfg": "%cfg_scale%",
+            "sampler_name": "%sampler_name%",
+            "scheduler": "AYS SDXL",
+            "denoise": 0.4,
+            "use_tiled_vae": false,
+            "tile_size": 1024,
+            "model": [
+                "58",
+                1
+            ],
+            "vae": [
+                "58",
+                5
+            ],
+            "positive": [
+                "58",
+                2
+            ],
+            "negative": [
+                "58",
+                3
+            ]
+        },
+        "class_type": "PixelKSampleUpscalerProvider",
+        "_meta": {
+            "title": "PixelKSampleUpscalerProvider"
+        }
+    },
+    "53": {
+        "inputs": {
+            "positive": "%prompt%",
+            "negative": "%negative_prompt%",
+            "打开可视化PromptUI": ""
+        },
+        "class_type": "WeiLinPromptToString",
+        "_meta": {
+            "title": "主要内容与负面提示词编辑（包括Lora加载与管理）"
+        }
+    },
+    "54": {
+        "inputs": {
+            "ckpt_name": "%MODEL_NAME%",
+            "vae_name": "Baked VAE",
+            "clip_skip": -2,
+            "lora_name": "None",
+            "lora_model_strength": 1,
+            "lora_clip_strength": 1,
+            "resolution": "832 x 1216",
+            "empty_latent_width": 1024,
+            "empty_latent_height": 1536,
+            "positive": [
+                "53",
+                0
+            ],
+            "negative": [
+                "53",
+                1
+            ],
+            "batch_size": 1,
+            "a1111_prompt_style": false
+        },
+        "class_type": "easy a1111Loader",
+        "_meta": {
+            "title": "简易加载器（A1111）"
+        }
+    },
+    "55": {
+        "inputs": {
+            "pipe": [
+                "54",
+                0
+            ]
+        },
+        "class_type": "easy pipeOut",
+        "_meta": {
+            "title": "节点束输出"
+        }
+    },
+    "56": {
+        "inputs": {
+            "positive": [
+                "53",
+                0
+            ],
+            "打开可视化PromptUI": "",
+            "model": [
+                "55",
+                1
+            ],
+            "clip": [
+                "55",
+                6
+            ]
+        },
+        "class_type": "WeiLinComfyUIPromptToLorasOnly",
+        "_meta": {
+            "title": "WeiLin 正向提示词Lora自动加载"
+        }
+    },
+    "57": {
+        "inputs": {
+            "pipe": [
+                "55",
+                0
+            ],
+            "model": [
+                "42",
+                0
+            ],
+            "pos": [
+                "56",
+                1
+            ],
+            "neg": [
+                "43",
+                0
+            ],
+            "latent": [
+                "55",
+                4
+            ],
+            "vae": [
+                "55",
+                5
+            ],
+            "clip": [
+                "55",
+                6
+            ],
+            "image": [
+                "55",
+                7
+            ]
+        },
+        "class_type": "easy pipeIn",
+        "_meta": {
+            "title": "节点束输入"
+        }
+    },
+    "58": {
+        "inputs": {
+            "pipe": [
+                "57",
+                0
+            ]
+        },
+        "class_type": "easy pipeOut",
+        "_meta": {
+            "title": "节点束输出"
+        }
+    },
+    "59": {
+        "inputs": {
+            "PIPE_LINE": [
+                "58",
+                0
+            ]
+        },
+        "class_type": "Anything Everywhere",
+        "_meta": {
+            "title": "Anything Everywhere"
+        }
+    },
+    "62": {
+        "inputs": {
+            "model_name": "sam_vit_b_01ec64.pth",
+            "device_mode": "AUTO",
+            "sam_detection_hint": "center-1",
+            "sam_dilation": 0,
+            "sam_threshold": 0.93,
+            "sam_bbox_expansion": 0,
+            "sam_mask_hint_threshold": 0.7,
+            "sam_mask_hint_use_negative": "False"
+        },
+        "class_type": "easy samLoaderPipe",
+        "_meta": {
+            "title": "Sam模型加载器（细节修复节点束）"
+        }
+    },
+    "65": {
+        "inputs": {
+            "guide_size": 1024,
+            "guide_size_for": true,
+            "max_size": 1024,
+            "seed": "%seed%",
+            "steps": 15,
+            "cfg": "%cfg_scale%",
+            "sampler_name": "%sampler_name%",
+            "scheduler": "align_your_steps",
+            "denoise": 0.4,
+            "feather": 5,
+            "noise_mask": true,
+            "force_inpaint": true,
+            "drop_size": 10,
+            "wildcard": "",
+            "cycle": 1,
+            "bbox_segm_pipe": [
+                "66",
+                0
+            ],
+            "sam_pipe": [
+                "62",
+                0
+            ],
+            "optional_image": [
+                "8",
+                0
+            ],
+            "pipe": [
+                "58",
+                0
+            ]
+        },
+        "class_type": "easy preDetailerFix",
+        "_meta": {
+            "title": "预细节修复"
+        }
+    },
+    "66": {
+        "inputs": {
+            "model_name": "bbox/face_yolov8m.pt",
+            "bbox_threshold": 0.5,
+            "bbox_dilation": 10,
+            "bbox_crop_factor": 3
+        },
+        "class_type": "easy ultralyticsDetectorPipe",
+        "_meta": {
+            "title": "检测加载器（细节修复节点束）"
+        }
+    },
+    "67": {
+        "inputs": {
+            "image_output": "Preview",
+            "link_id": 0,
+            "save_prefix": "ComfyUI",
+            "pipe": [
+                "65",
+                0
+            ],
+            "model": [
+                "71",
+                0
+            ]
+        },
+        "class_type": "easy detailerFix",
+        "_meta": {
+            "title": "细节修复"
+        }
+    },
+    "71": {
+        "inputs": {
+            "model": [
+                "58",
+                1
+            ]
+        },
+        "class_type": "DifferentialDiffusion",
+        "_meta": {
+            "title": "差异扩散DifferentialDiffusion"
+        }
+    }
+}

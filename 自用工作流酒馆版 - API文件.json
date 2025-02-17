@@ -1,7 +1,7 @@
 {
   "3": {
     "inputs": {
-      "seed": 777693796350871,
+      "seed": 192614669816136,
       "steps": 80,
       "cfg": 5.5,
       "sampler_name": "euler",
@@ -12,16 +12,16 @@
         0
       ],
       "model": [
-        "42",
-        0
-      ],
-      "positive": [
-        "39",
+        "58",
         1
       ],
+      "positive": [
+        "58",
+        2
+      ],
       "negative": [
-        "43",
-        0
+        "58",
+        3
       ]
     },
     "class_type": "KSampler",
@@ -40,19 +40,6 @@
       "title": "空Latent图像"
     }
   },
-  "7": {
-    "inputs": {
-      "text": "负面",
-      "clip": [
-        "14",
-        1
-      ]
-    },
-    "class_type": "CLIPTextEncode",
-    "_meta": {
-      "title": "CLIP文本编码"
-    }
-  },
   "8": {
     "inputs": {
       "samples": [
@@ -60,8 +47,8 @@
         0
       ],
       "vae": [
-        "14",
-        2
+        "58",
+        5
       ]
     },
     "class_type": "VAEDecode",
@@ -69,49 +56,12 @@
       "title": "VAE解码"
     }
   },
-  "14": {
-    "inputs": {
-      "ckpt_name": "wai.safetensors"
-    },
-    "class_type": "CheckpointLoaderSimple",
-    "_meta": {
-      "title": "Checkpoint加载器（简易）"
-    }
-  },
-  "23": {
-    "inputs": {
-      "model_name": "bbox/face_yolov8m.pt"
-    },
-    "class_type": "UltralyticsDetectorProvider",
-    "_meta": {
-      "title": "UltralyticsDetectorProvider"
-    }
-  },
-  "25": {
-    "inputs": {
-      "model_name": "sam_vit_b_01ec64.pth",
-      "device_mode": "AUTO"
-    },
-    "class_type": "SAMLoader",
-    "_meta": {
-      "title": "SAMLoader (Impact)"
-    }
-  },
-  "26": {
-    "inputs": {
-      "model_name": "segm/person_yolov8m-seg.pt"
-    },
-    "class_type": "UltralyticsDetectorProvider",
-    "_meta": {
-      "title": "UltralyticsDetectorProvider"
-    }
-  },
   "30": {
     "inputs": {
       "filename_prefix": "ComfyUI",
       "images": [
-        "35",
-        0
+        "67",
+        1
       ]
     },
     "class_type": "SaveImage",
@@ -119,101 +69,11 @@
       "title": "保存图像"
     }
   },
-  "35": {
-    "inputs": {
-      "guide_size": 1024,
-      "guide_size_for": true,
-      "max_size": 1024,
-      "seed": 838816117756455,
-      "steps": 20,
-      "cfg": 5.5,
-      "sampler_name": "euler",
-      "scheduler": "AYS SDXL",
-      "denoise": 0.4,
-      "feather": 5,
-      "noise_mask": true,
-      "force_inpaint": true,
-      "bbox_threshold": 0.5,
-      "bbox_dilation": 10,
-      "bbox_crop_factor": 3,
-      "sam_detection_hint": "center-1",
-      "sam_dilation": 0,
-      "sam_threshold": 0.93,
-      "sam_bbox_expansion": 0,
-      "sam_mask_hint_threshold": 0.7000000000000001,
-      "sam_mask_hint_use_negative": "False",
-      "drop_size": 10,
-      "wildcard": "",
-      "cycle": 1,
-      "inpaint_model": false,
-      "noise_mask_feather": 20,
-      "tiled_encode": true,
-      "tiled_decode": false,
-      "image": [
-        "8",
-        0
-      ],
-      "bbox_detector": [
-        "23",
-        0
-      ],
-      "sam_model_opt": [
-        "25",
-        0
-      ],
-      "segm_detector_opt": [
-        "26",
-        1
-      ],
-      "model": [
-        "42",
-        0
-      ],
-      "clip": [
-        "14",
-        1
-      ],
-      "vae": [
-        "14",
-        2
-      ],
-      "positive": [
-        "39",
-        1
-      ],
-      "negative": [
-        "43",
-        0
-      ]
-    },
-    "class_type": "FaceDetailer",
-    "_meta": {
-      "title": "FaceDetailer"
-    }
-  },
-  "39": {
-    "inputs": {
-      "positive": "正面",
-      "打开可视化PromptUI": "",
-      "model": [
-        "14",
-        0
-      ],
-      "clip": [
-        "14",
-        1
-      ]
-    },
-    "class_type": "WeiLinComfyUIPromptToLorasOnly",
-    "_meta": {
-      "title": "WeiLin 正向提示词Lora自动加载"
-    }
-  },
   "40": {
     "inputs": {
       "Skimming_CFG": 5.5,
       "model": [
-        "39",
+        "56",
         0
       ]
     },
@@ -257,8 +117,8 @@
       "start": 0,
       "end": 0.7000000000000001,
       "conditioning": [
-        "7",
-        0
+        "55",
+        3
       ]
     },
     "class_type": "ConditioningSetTimestepRange",
@@ -269,8 +129,8 @@
   "44": {
     "inputs": {
       "CONDITIONING": [
-        "43",
-        0
+        "58",
+        3
       ]
     },
     "class_type": "Prompts Everywhere",
@@ -281,16 +141,16 @@
   "45": {
     "inputs": {
       "MODEL": [
-        "42",
-        0
+        "58",
+        1
       ],
       "VAE": [
-        "14",
-        2
+        "58",
+        5
       ],
       "CLIP": [
-        "14",
-        1
+        "58",
+        6
       ]
     },
     "class_type": "Anything Everywhere3",
@@ -321,8 +181,8 @@
   "49": {
     "inputs": {
       "scale_method": "lanczos",
-      "seed": 0,
-      "steps": 20,
+      "seed": 946120531166210,
+      "steps": 15,
       "cfg": 5.5,
       "sampler_name": "euler",
       "scheduler": "AYS SDXL",
@@ -330,25 +190,258 @@
       "use_tiled_vae": false,
       "tile_size": 1024,
       "model": [
-        "42",
-        0
-      ],
-      "vae": [
-        "14",
-        2
-      ],
-      "positive": [
-        "39",
+        "58",
         1
       ],
+      "vae": [
+        "58",
+        5
+      ],
+      "positive": [
+        "58",
+        2
+      ],
       "negative": [
-        "43",
-        0
+        "58",
+        3
       ]
     },
     "class_type": "PixelKSampleUpscalerProvider",
     "_meta": {
       "title": "PixelKSampleUpscalerProvider"
+    }
+  },
+  "53": {
+    "inputs": {
+      "positive": "正面",
+      "negative": "负面",
+      "打开可视化PromptUI": ""
+    },
+    "class_type": "WeiLinPromptToString",
+    "_meta": {
+      "title": "主要内容与负面提示词编辑（包括Lora加载与管理）"
+    }
+  },
+  "54": {
+    "inputs": {
+      "ckpt_name": "plantMilk_flax.safetensors",
+      "vae_name": "Baked VAE",
+      "clip_skip": -2,
+      "lora_name": "None",
+      "lora_model_strength": 1,
+      "lora_clip_strength": 1,
+      "resolution": "832 x 1216",
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1536,
+      "positive": [
+        "53",
+        0
+      ],
+      "negative": [
+        "53",
+        1
+      ],
+      "batch_size": 1,
+      "a1111_prompt_style": false
+    },
+    "class_type": "easy a1111Loader",
+    "_meta": {
+      "title": "简易加载器（A1111）"
+    }
+  },
+  "55": {
+    "inputs": {
+      "pipe": [
+        "54",
+        0
+      ]
+    },
+    "class_type": "easy pipeOut",
+    "_meta": {
+      "title": "节点束输出"
+    }
+  },
+  "56": {
+    "inputs": {
+      "positive": [
+        "53",
+        0
+      ],
+      "打开可视化PromptUI": "",
+      "model": [
+        "55",
+        1
+      ],
+      "clip": [
+        "55",
+        6
+      ]
+    },
+    "class_type": "WeiLinComfyUIPromptToLorasOnly",
+    "_meta": {
+      "title": "WeiLin 正向提示词Lora自动加载"
+    }
+  },
+  "57": {
+    "inputs": {
+      "pipe": [
+        "55",
+        0
+      ],
+      "model": [
+        "42",
+        0
+      ],
+      "pos": [
+        "56",
+        1
+      ],
+      "neg": [
+        "43",
+        0
+      ],
+      "latent": [
+        "55",
+        4
+      ],
+      "vae": [
+        "55",
+        5
+      ],
+      "clip": [
+        "55",
+        6
+      ],
+      "image": [
+        "55",
+        7
+      ]
+    },
+    "class_type": "easy pipeIn",
+    "_meta": {
+      "title": "节点束输入"
+    }
+  },
+  "58": {
+    "inputs": {
+      "pipe": [
+        "57",
+        0
+      ]
+    },
+    "class_type": "easy pipeOut",
+    "_meta": {
+      "title": "节点束输出"
+    }
+  },
+  "59": {
+    "inputs": {
+      "PIPE_LINE": [
+        "58",
+        0
+      ]
+    },
+    "class_type": "Anything Everywhere",
+    "_meta": {
+      "title": "Anything Everywhere"
+    }
+  },
+  "62": {
+    "inputs": {
+      "model_name": "sam_vit_b_01ec64.pth",
+      "device_mode": "AUTO",
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False"
+    },
+    "class_type": "easy samLoaderPipe",
+    "_meta": {
+      "title": "Sam模型加载器（细节修复节点束）"
+    }
+  },
+  "65": {
+    "inputs": {
+      "guide_size": 1024,
+      "guide_size_for": true,
+      "max_size": 1024,
+      "seed": 129047913568745,
+      "steps": 20,
+      "cfg": 5.5,
+      "sampler_name": "euler",
+      "scheduler": "align_your_steps",
+      "denoise": 0.4,
+      "feather": 5,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1,
+      "bbox_segm_pipe": [
+        "66",
+        0
+      ],
+      "sam_pipe": [
+        "62",
+        0
+      ],
+      "optional_image": [
+        "8",
+        0
+      ],
+      "pipe": [
+        "58",
+        0
+      ]
+    },
+    "class_type": "easy preDetailerFix",
+    "_meta": {
+      "title": "预细节修复"
+    }
+  },
+  "66": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt",
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 10,
+      "bbox_crop_factor": 3
+    },
+    "class_type": "easy ultralyticsDetectorPipe",
+    "_meta": {
+      "title": "检测加载器（细节修复节点束）"
+    }
+  },
+  "67": {
+    "inputs": {
+      "image_output": "Preview",
+      "link_id": 0,
+      "save_prefix": "ComfyUI",
+      "pipe": [
+        "65",
+        0
+      ],
+      "model": [
+        "71",
+        0
+      ]
+    },
+    "class_type": "easy detailerFix",
+    "_meta": {
+      "title": "细节修复"
+    }
+  },
+  "71": {
+    "inputs": {
+      "model": [
+        "58",
+        1
+      ]
+    },
+    "class_type": "DifferentialDiffusion",
+    "_meta": {
+      "title": "差异扩散DifferentialDiffusion"
     }
   }
 }
