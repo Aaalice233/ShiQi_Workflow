@@ -52,12 +52,17 @@
 🛑 **Manager 缺失插件地址已内置在注释中**
 
 最近的更新：
-
 ```diff
+8.1.1更新：
+修正底图随机种被固定的问题
+```
+
+<details>
+<summary>v8.1版本更新日志</summary>
 v8.1小型更新：
 1、修正开启加速导致Lora失效的问题
 2、修正质量词错误
-```
+</details>
 <details>
 <summary>v8.0版本更新日志</summary>
 ## v8.0大更新：
