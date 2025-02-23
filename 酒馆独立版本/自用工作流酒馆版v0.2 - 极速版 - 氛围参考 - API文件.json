@@ -1,0 +1,334 @@
+{
+  "3": {
+    "inputs": {
+      "seed": "%seed%",
+      "steps": "%steps%",
+      "cfg": "%cfg_scale%",
+      "sampler_name": "%sampler_name%",
+      "scheduler": "normal",
+      "denoise": 1,
+      "latent_image": [
+        "5",
+        0
+      ],
+      "model": [
+        "58",
+        1
+      ],
+      "positive": [
+        "58",
+        2
+      ],
+      "negative": [
+        "58",
+        3
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "K采样器"
+    }
+  },
+  "5": {
+    "inputs": {
+      "width": "%width%",
+      "height": "%height%",
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent图像"
+    }
+  },
+  "30": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "72",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "41": {
+    "inputs": {
+      "method": "from cond",
+      "model": [
+        "56",
+        0
+      ]
+    },
+    "class_type": "Support empty uncond",
+    "_meta": {
+      "title": "Support empty uncond"
+    }
+  },
+  "42": {
+    "inputs": {
+      "object_to_patch": "diffusion_model",
+      "residual_diff_threshold": 0.2,
+      "start": 0,
+      "end": 1,
+      "max_consecutive_cache_hits": 1,
+      "model": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "ApplyFBCacheOnModel",
+    "_meta": {
+      "title": "Apply First Block Cache"
+    }
+  },
+  "43": {
+    "inputs": {
+      "start": 0,
+      "end": 0.7000000000000001,
+      "conditioning": [
+        "55",
+        3
+      ]
+    },
+    "class_type": "ConditioningSetTimestepRange",
+    "_meta": {
+      "title": "设置条件时间"
+    }
+  },
+  "44": {
+    "inputs": {
+      "CONDITIONING": [
+        "58",
+        3
+      ]
+    },
+    "class_type": "Prompts Everywhere",
+    "_meta": {
+      "title": "Prompts Everywhere"
+    }
+  },
+  "45": {
+    "inputs": {
+      "MODEL": [
+        "58",
+        1
+      ],
+      "VAE": [
+        "58",
+        5
+      ],
+      "CLIP": [
+        "58",
+        6
+      ]
+    },
+    "class_type": "Anything Everywhere3",
+    "_meta": {
+      "title": "Anything Everywhere3"
+    }
+  },
+  "53": {
+    "inputs": {
+      "positive": "%prompt%",
+      "negative": "%negative_prompt%",
+      "打开可视化PromptUI": ""
+    },
+    "class_type": "WeiLinPromptToString",
+    "_meta": {
+      "title": "主要内容与负面提示词编辑（包括Lora加载与管理）"
+    }
+  },
+  "54": {
+    "inputs": {
+      "ckpt_name": "%MODEL_NAME%",
+      "vae_name": "Baked VAE",
+      "clip_skip": -2,
+      "lora_name": "None",
+      "lora_model_strength": 1,
+      "lora_clip_strength": 1,
+      "resolution": "832 x 1216",
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1536,
+      "positive": [
+        "53",
+        0
+      ],
+      "negative": [
+        "53",
+        1
+      ],
+      "batch_size": 1,
+      "a1111_prompt_style": false
+    },
+    "class_type": "easy a1111Loader",
+    "_meta": {
+      "title": "简易加载器（A1111）"
+    }
+  },
+  "55": {
+    "inputs": {
+      "pipe": [
+        "54",
+        0
+      ]
+    },
+    "class_type": "easy pipeOut",
+    "_meta": {
+      "title": "节点束输出"
+    }
+  },
+  "56": {
+    "inputs": {
+      "positive": [
+        "53",
+        0
+      ],
+      "打开可视化PromptUI": "",
+      "model": [
+        "55",
+        1
+      ],
+      "clip": [
+        "55",
+        6
+      ]
+    },
+    "class_type": "WeiLinComfyUIPromptToLorasOnly",
+    "_meta": {
+      "title": "WeiLin 正向提示词Lora自动加载"
+    }
+  },
+  "57": {
+    "inputs": {
+      "pipe": [
+        "55",
+        0
+      ],
+      "model": [
+        "73",
+        0
+      ],
+      "pos": [
+        "56",
+        1
+      ],
+      "neg": [
+        "43",
+        0
+      ],
+      "latent": [
+        "55",
+        4
+      ],
+      "vae": [
+        "55",
+        5
+      ],
+      "clip": [
+        "55",
+        6
+      ],
+      "image": [
+        "55",
+        7
+      ]
+    },
+    "class_type": "easy pipeIn",
+    "_meta": {
+      "title": "节点束输入"
+    }
+  },
+  "58": {
+    "inputs": {
+      "pipe": [
+        "57",
+        0
+      ]
+    },
+    "class_type": "easy pipeOut",
+    "_meta": {
+      "title": "节点束输出"
+    }
+  },
+  "59": {
+    "inputs": {
+      "PIPE_LINE": [
+        "58",
+        0
+      ]
+    },
+    "class_type": "Anything Everywhere",
+    "_meta": {
+      "title": "Anything Everywhere"
+    }
+  },
+  "72": {
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "58",
+        5
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "73": {
+    "inputs": {
+      "weight": "%c_quanzhong%",
+      "weight_faceidv2": "%c_idquanzhong%",
+      "weight_type": "style and composition",
+      "combine_embeds": "concat",
+      "start_at": 0,
+      "end_at": 1,
+      "embeds_scaling": "K+mean(V) w/ C penalty",
+      "layer_weights": "0:0, 1:0, 2:0, 3:0.8, 4:0, 5:0, 6:0.8, 7:0, 8:0, 9:0, 10:0",
+      "model": [
+        "77",
+        0
+      ],
+      "ipadapter": [
+        "77",
+        1
+      ],
+      "image": [
+        "75",
+        0
+      ]
+    },
+    "class_type": "IPAdapterMS",
+    "_meta": {
+      "title": "应用IPAdapter Mad Scientist"
+    }
+  },
+  "75": {
+    "inputs": {
+      "image": "%comfyuicankaotupian%",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "77": {
+    "inputs": {
+      "preset": "%ipa%",
+      "model": [
+        "42",
+        0
+      ]
+    },
+    "class_type": "IPAdapterUnifiedLoader",
+    "_meta": {
+      "title": "IPAdapter加载器"
+    }
+  }
+}
