@@ -1,0 +1,410 @@
+{
+  "3": {
+    "inputs": {
+      "seed": "%seed%",
+      "steps": "%steps%",
+      "cfg": "%cfg_scale%",
+      "sampler_name": "%sampler_name%",
+      "scheduler": "normal",
+      "denoise": 1,
+      "model": [
+        "42",
+        0
+      ],
+      "positive": [
+        "75",
+        1
+      ],
+      "negative": [
+        "43",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "K采样器"
+    }
+  },
+  "5": {
+    "inputs": {
+      "width": "%width%",
+      "height": "%height%",
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent图像"
+    }
+  },
+  "8": {
+    "inputs": {
+      "samples": [
+        "48",
+        0
+      ],
+      "vae": [
+        "48",
+        1
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "30": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "84",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "41": {
+    "inputs": {
+      "method": "from cond",
+      "model": [
+        "75",
+        0
+      ]
+    },
+    "class_type": "Support empty uncond",
+    "_meta": {
+      "title": "Support empty uncond"
+    }
+  },
+  "42": {
+    "inputs": {
+      "object_to_patch": "diffusion_model",
+      "residual_diff_threshold": 0.2,
+      "start": 0.2,
+      "end": 0.8,
+      "max_consecutive_cache_hits": 5,
+      "model": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "ApplyFBCacheOnModel",
+    "_meta": {
+      "title": "Apply First Block Cache"
+    }
+  },
+  "43": {
+    "inputs": {
+      "start": 0,
+      "end": 0.7000000000000001,
+      "conditioning": [
+        "75",
+        2
+      ]
+    },
+    "class_type": "ConditioningSetTimestepRange",
+    "_meta": {
+      "title": "设置条件时间"
+    }
+  },
+  "48": {
+    "inputs": {
+      "upscale_factor": 1.5,
+      "steps": [
+        "73",
+        0
+      ],
+      "temp_prefix": "",
+      "step_mode": "simple",
+      "samples": [
+        "3",
+        0
+      ],
+      "upscaler": [
+        "49",
+        0
+      ]
+    },
+    "class_type": "IterativeLatentUpscale",
+    "_meta": {
+      "title": "Iterative Upscale (Latent/on Pixel Space)"
+    }
+  },
+  "49": {
+    "inputs": {
+      "scale_method": "lanczos",
+      "seed": "%seed%",
+      "steps": [
+        "72",
+        0
+      ],
+      "cfg": "%cfg_scale%",
+      "sampler_name": "dpmpp_2m_sde",
+      "scheduler": "exponential",
+      "denoise": 0.3,
+      "use_tiled_vae": false,
+      "tile_size": 1024,
+      "model": [
+        "74",
+        0
+      ],
+      "vae": [
+        "55",
+        5
+      ],
+      "positive": [
+        "75",
+        1
+      ],
+      "negative": [
+        "43",
+        0
+      ]
+    },
+    "class_type": "PixelKSampleUpscalerProvider",
+    "_meta": {
+      "title": "PixelKSampleUpscalerProvider"
+    }
+  },
+  "54": {
+    "inputs": {
+      "ckpt_name": "%MODEL_NAME%",
+      "vae_name": "Baked VAE",
+      "clip_skip": -2,
+      "lora_name": "None",
+      "lora_model_strength": 1,
+      "lora_clip_strength": 1,
+      "resolution": "832 x 1216",
+      "empty_latent_width": "%width%",
+      "empty_latent_height": "%height%",
+      "positive": [
+        "77",
+        0
+      ],
+      "negative": [
+        "76",
+        1
+      ],
+      "batch_size": 1,
+      "a1111_prompt_style": true
+    },
+    "class_type": "easy a1111Loader",
+    "_meta": {
+      "title": "简易加载器（A1111）"
+    }
+  },
+  "55": {
+    "inputs": {
+      "pipe": [
+        "54",
+        0
+      ]
+    },
+    "class_type": "easy pipeOut",
+    "_meta": {
+      "title": "节点束输出"
+    }
+  },
+  "72": {
+    "inputs": {
+      "value": 30
+    },
+    "class_type": "easy int",
+    "_meta": {
+      "title": "整数"
+    }
+  },
+  "73": {
+    "inputs": {
+      "value": 1
+    },
+    "class_type": "easy int",
+    "_meta": {
+      "title": "整数"
+    }
+  },
+  "74": {
+    "inputs": {
+      "object_to_patch": "diffusion_model",
+      "residual_diff_threshold": 0.2,
+      "start": 0,
+      "end": 1,
+      "max_consecutive_cache_hits": 5,
+      "model": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "ApplyFBCacheOnModel",
+    "_meta": {
+      "title": "Apply First Block Cache"
+    }
+  },
+  "75": {
+    "inputs": {
+      "positive": [
+        "76",
+        0
+      ],
+      "negative": [
+        "76",
+        1
+      ],
+      "打开可视化PromptUI": "",
+      "model": [
+        "55",
+        1
+      ],
+      "clip": [
+        "55",
+        6
+      ]
+    },
+    "class_type": "WeiLinComfyUIPromptToLoras",
+    "_meta": {
+      "title": "WeiLin 二合一提示词Lora自动加载"
+    }
+  },
+  "76": {
+    "inputs": {
+      "positive": "%prompt%",
+      "negative": "%negative_prompt%",
+      "打开可视化PromptUI": ""
+    },
+    "class_type": "WeiLinPromptToString",
+    "_meta": {
+      "title": "提示词"
+    }
+  },
+  "77": {
+    "inputs": {
+      "positive": ""
+    },
+    "class_type": "easy positive",
+    "_meta": {
+      "title": "伪造正面提示词-别动这个"
+    }
+  },
+  "82": {
+    "inputs": {
+      "object_to_patch": "diffusion_model",
+      "residual_diff_threshold": 0.2,
+      "start": 0,
+      "end": 1,
+      "max_consecutive_cache_hits": 5,
+      "model": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "ApplyFBCacheOnModel",
+    "_meta": {
+      "title": "Apply First Block Cache"
+    }
+  },
+  "84": {
+    "inputs": {
+      "guide_size": 1024,
+      "guide_size_for": true,
+      "max_size": 1024,
+      "seed": "%seed%",
+      "steps": [
+        "87",
+        0
+      ],
+      "cfg": "%cfg_scale%",
+      "sampler_name": "dpmpp_2m_sde",
+      "scheduler": "exponential",
+      "denoise": 0.3,
+      "feather": 5,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 10,
+      "bbox_crop_factor": 3,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 20,
+      "tiled_encode": false,
+      "tiled_decode": false,
+      "image": [
+        "8",
+        0
+      ],
+      "model": [
+        "82",
+        0
+      ],
+      "clip": [
+        "55",
+        6
+      ],
+      "vae": [
+        "55",
+        5
+      ],
+      "positive": [
+        "75",
+        1
+      ],
+      "negative": [
+        "43",
+        0
+      ],
+      "bbox_detector": [
+        "85",
+        0
+      ],
+      "sam_model_opt": [
+        "86",
+        0
+      ]
+    },
+    "class_type": "FaceDetailer",
+    "_meta": {
+      "title": "FaceDetailer"
+    }
+  },
+  "85": {
+    "inputs": {
+      "model_name": "bbox/99coins_anime_girl_face_m_seg.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "86": {
+    "inputs": {
+      "model_name": "sam_vit_b_01ec64.pth",
+      "device_mode": "AUTO"
+    },
+    "class_type": "SAMLoader",
+    "_meta": {
+      "title": "SAMLoader (Impact)"
+    }
+  },
+  "87": {
+    "inputs": {
+      "value": 30
+    },
+    "class_type": "easy int",
+    "_meta": {
+      "title": "整数"
+    }
+  }
+}

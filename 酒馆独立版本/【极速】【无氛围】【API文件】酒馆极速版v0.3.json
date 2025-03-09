@@ -1,0 +1,200 @@
+{
+  "88": {
+    "inputs": {
+      "width": "%width%",
+      "height": "%height%",
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent图像"
+    }
+  },
+  "89": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "91",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "90": {
+    "inputs": {
+      "pipe": [
+        "96",
+        0
+      ]
+    },
+    "class_type": "easy pipeOut",
+    "_meta": {
+      "title": "节点束输出"
+    }
+  },
+  "91": {
+    "inputs": {
+      "samples": [
+        "100",
+        0
+      ],
+      "vae": [
+        "90",
+        5
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "92": {
+    "inputs": {
+      "method": "from cond",
+      "model": [
+        "94",
+        0
+      ]
+    },
+    "class_type": "Support empty uncond",
+    "_meta": {
+      "title": "Support empty uncond"
+    }
+  },
+  "93": {
+    "inputs": {
+      "start": 0,
+      "end": 0.7000000000000001,
+      "conditioning": [
+        "94",
+        2
+      ]
+    },
+    "class_type": "ConditioningSetTimestepRange",
+    "_meta": {
+      "title": "设置条件时间"
+    }
+  },
+  "94": {
+    "inputs": {
+      "positive": [
+        "98",
+        0
+      ],
+      "negative": [
+        "98",
+        1
+      ],
+      "打开可视化PromptUI": "",
+      "model": [
+        "90",
+        1
+      ],
+      "clip": [
+        "90",
+        6
+      ]
+    },
+    "class_type": "WeiLinComfyUIPromptToLoras",
+    "_meta": {
+      "title": "WeiLin 二合一提示词Lora自动加载"
+    }
+  },
+  "96": {
+    "inputs": {
+      "ckpt_name": "%MODEL_NAME%",
+      "vae_name": "Baked VAE",
+      "clip_skip": -2,
+      "lora_name": "None",
+      "lora_model_strength": 1,
+      "lora_clip_strength": 1,
+      "resolution": "832 x 1216",
+      "empty_latent_width": "%width%",
+      "empty_latent_height": "%height%",
+      "positive": [
+        "97",
+        0
+      ],
+      "negative": [
+        "98",
+        1
+      ],
+      "batch_size": 1,
+      "a1111_prompt_style": true
+    },
+    "class_type": "easy a1111Loader",
+    "_meta": {
+      "title": "简易加载器（A1111）"
+    }
+  },
+  "97": {
+    "inputs": {
+      "positive": ""
+    },
+    "class_type": "easy positive",
+    "_meta": {
+      "title": "伪造正面提示词-别动这个"
+    }
+  },
+  "98": {
+    "inputs": {
+      "positive": "%prompt%",
+      "negative": "%negative_prompt%",
+      "打开可视化PromptUI": ""
+    },
+    "class_type": "WeiLinPromptToString",
+    "_meta": {
+      "title": "提示词"
+    }
+  },
+  "100": {
+    "inputs": {
+      "seed": "%seed%",
+      "steps": "%steps%",
+      "cfg": "%cfg_scale%",
+      "sampler_name": "%sampler_name%",
+      "scheduler": "normal",
+      "denoise": 1,
+      "model": [
+        "103",
+        0
+      ],
+      "positive": [
+        "94",
+        1
+      ],
+      "negative": [
+        "93",
+        0
+      ],
+      "latent_image": [
+        "88",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "K采样器"
+    }
+  },
+  "103": {
+    "inputs": {
+      "object_to_patch": "diffusion_model",
+      "residual_diff_threshold": 0.2,
+      "start": 0.2,
+      "end": 0.8,
+      "max_consecutive_cache_hits": 5,
+      "model": [
+        "92",
+        0
+      ]
+    },
+    "class_type": "ApplyFBCacheOnModel",
+    "_meta": {
+      "title": "Apply First Block Cache"
+    }
+  }
+}
