@@ -2,7 +2,7 @@
   "id": "41ce0f4d-55dd-4f01-b86d-566a177f55f5",
   "revision": 0,
   "last_node_id": 1798,
-  "last_link_id": 2625,
+  "last_link_id": 2653,
   "nodes": [
     {
       "id": 9,
@@ -596,7 +596,7 @@
         1024,
         true,
         1024,
-        1051053617721391,
+        79297585505184,
         "randomize",
         20,
         7,
@@ -2805,10 +2805,10 @@
         "Node name for S&R": "easy globalSeed"
       },
       "widgets_values": [
-        1024260330629920,
+        13740772261084,
         true,
         "randomize",
-        378273032650530
+        551435734104897
       ],
       "color": "#323",
       "bgcolor": "#535"
@@ -9871,7 +9871,7 @@
         1024,
         true,
         1024,
-        926155461202585,
+        877326070321445,
         "randomize",
         30,
         8,
@@ -13309,7 +13309,7 @@
         "Node name for S&R": "KSampler //Inspire"
       },
       "widgets_values": [
-        114083343692935,
+        381819574640853,
         "randomize",
         30,
         8,
@@ -13620,7 +13620,7 @@
       },
       "widgets_values": [
         2,
-        580407691373765,
+        18530312186062,
         "randomize",
         30,
         8,
@@ -15699,7 +15699,7 @@
         1024,
         true,
         1024,
-        417772914322323,
+        262463761831996,
         "randomize",
         30,
         8,
@@ -15975,7 +15975,7 @@
         1024,
         true,
         1024,
-        666955578409432,
+        217902891434977,
         "randomize",
         30,
         8,
@@ -16211,7 +16211,7 @@
         1024,
         true,
         1024,
-        936179137259149,
+        999477666856416,
         "randomize",
         30,
         8,
@@ -16447,7 +16447,7 @@
         1024,
         true,
         1024,
-        808020513001430,
+        1091793191411814,
         "randomize",
         30,
         8,
@@ -18881,7 +18881,7 @@
         "euler",
         "normal",
         1,
-        1024260330629920,
+        13740772261084,
         "randomize"
       ],
       "color": "#323",
@@ -20406,7 +20406,7 @@
         "Node name for S&R": "KSampler //Inspire"
       },
       "widgets_values": [
-        1024260330629920,
+        13740772261084,
         "randomize",
         30,
         8,
@@ -21412,7 +21412,7 @@
         "euler",
         "karras",
         0.7000000000000002,
-        915161937995267,
+        206545837798066,
         "randomize"
       ],
       "color": "#323",
@@ -26126,7 +26126,7 @@
         "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "1girl,yuel \\(granblue fantasy\\),granblue fantasy,animal ears,anus,bell,blue hair,blush,breasts,completely nude,erune,fang,female pubic hair,fox ears,fox shadow puppet,hair ornament,jingle bell,large breasts,leg up,long hair,looking at viewer,nipples,nude,open mouth,pubic hair,pussy,red eyes,smile,solo focus,spread legs,spread pussy,sweat,on back,thighs,feet,navel,hetero,barefoot,lying,hair bell,soles,toes,very long hair,areolae,tail,fox tail,fox girl,ass visible through thighs,animal ear fluff,"
+        "1girl,yuel \\(granblue fantasy\\),granblue fantasy,animal ears,anus,bell,blue hair,blush,breasts,completely nude,erune,fang,female pubic hair,fox ears,fox shadow puppet,hair ornament,jingle bell,large breasts,leg up,long hair,looking at viewer,nipples,nude,open mouth,pubic hair,pussy,red eyes,smile,solo focus,spread legs,spread pussy,sweat,on back,thighs,feet,navel,hetero,barefoot,lying,hair bell,soles,toes,very long hair,areolae,tail,fox tail,fox girl,ass visible through thighs,animal ear fluff"
       ]
     },
     {
@@ -26210,7 +26210,7 @@
         "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "dishwasher1910,(fuya \\(tempupupu\\):0.8),(shion \\(mirudakemann\\):0.6),(wada arco:1.1),bartolomeobari,(michking:0.6),1girl,yuel \\(granblue fantasy\\),granblue fantasy,animal ears,anus,bell,blue hair,blush,breasts,completely nude,erune,fang,female pubic hair,fox ears,fox shadow puppet,hair ornament,jingle bell,large breasts,leg up,long hair,looking at viewer,nipples,nude,open mouth,pubic hair,pussy,red eyes,smile,solo focus,spread legs,spread pussy,sweat,on back,thighs,feet,navel,hetero,barefoot,lying,hair bell,soles,toes,very long hair,areolae,tail,fox tail,fox girl,ass visible through thighs,animal ear fluff,,masterpiece,best quality,newest,absurdres,highres,very awa"
+        "1girl,yuel \\(granblue fantasy\\),granblue fantasy,animal ears,anus,bell,blue hair,blush,breasts,completely nude,erune,fang,female pubic hair,fox ears,fox shadow puppet,hair ornament,jingle bell,large breasts,leg up,long hair,looking at viewer,nipples,nude,open mouth,pubic hair,pussy,red eyes,smile,solo focus,spread legs,spread pussy,sweat,on back,thighs,feet,navel,hetero,barefoot,lying,hair bell,soles,toes,very long hair,areolae,tail,fox tail,fox girl,ass visible through thighs,animal ear fluffmasterpiece,best quality,newest,absurdres,highres,very awa"
       ]
     },
     {
@@ -26601,32 +26601,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 396,
-      "type": "MarkdownNote",
-      "pos": [
-        360,
-        -450
-      ],
-      "size": [
-        630,
-        1540
-      ],
-      "flags": {
-        "pinned": true
-      },
-      "order": 249,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "⚠️ 使用须知 ⚠️",
-      "properties": {},
-      "widgets_values": [
-        "### ✨发布与更新地址 →\n[点击加入类脑DC服务器（需要进入后答题才可看见工作流帖子）](https://discord.gg/6kdVgVgcRx)\n\n[类脑Discord频道帖子地址](https://discord.com/channels/1134557553011998840/1292880055193567263)\n\n[Github地址（可能不是最新的）](https://github.com/2515448788/ShiQi_Workflow)\n\n---\n\n### 一、你必须知道的一些事情\n⚠️ 检测插件缺失前请使用秋叶管理器**更新你的内核和插件**！（版本管理→内核/扩展→右上角一键更新）\n   - ComfyUI-Manager插件不是最新的的话会有缺失插件检测不到\n   - 内核不是最新的话工作流有可能报错！\n\n⚠️ **必要资源下载和插件安装需要开启梯子的【TUN模式】**\n- 开启教程：[点击跳转](https://discord.com/channels/1134557553011998840/1292880055193567263/1340881769595142226)\n\n⚠️ 可通过 **ComfyUI-Manager插件** 一键检测缺失的大部分插件\n- 有几个插件检测不到要手动下，地址在下面的**重要插件需求**部分，推荐学习一下**Git的使用以及克隆命令**，直接从Git下载到Custom Nodes文件夹而不是克隆的话，会导致秋叶管理器无法检测到插件更新！\n\n⚠️ **ComfyUI-Manager介绍与使用教程** \n- 必看\n   ▶️ [B站视频教程](https://www.bilibili.com/video/BV1pZ421b7t7/?share_source=copy_web&vd_source=bfc16ddc8978f586710cbdc506c6b4f0)\n\n⚠️ **缺失的节点名称 ≠ 节点包名称!**\n\n⚠️ **插件文件夹路径：**\n   `你的ComfyUI根目录/custom_nodes`\n\n⚠️ **工作流分区跳转快捷键：**\n   - 数字1键 -> 跳转到底模与提示词编辑区\n   - 数字2键 -> 跳转到底图选择区\n   - 数字3键 -> 跳转到图像对比区\n   - 数字4键 -> 跳转到组管理区\n   - 数字5键 -> 跳转到参数控制区\n   - 数字6键 -> 跳转到可选文生图附加功能区\n   - 数字7键 -> 跳转到可选独立功能区\n\n---\n\n### 二、插件需求（ComfyUI-Manger搜，搜不到就Git手动安装）\n\n1️⃣ **Impact Subpack**\n   - 功能：脸部手部检测\n   - 安装方式：ComfyUI Manager内搜索\n\n2️⃣ **pre_cfg_comfy_nodes_for_ComfyUI**\n   - 功能：部分加速功能支持\n   - 安装地址：[GitHub下载或克隆](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI)\n\n3️⃣ **Comfy-WaveSpeed**\n   - 功能：加速出图\n   - 安装地址：[GitHub下载或克隆](https://github.com/chengzeyi/Comfy-WaveSpeed)\n   - **注意**：不兼容 `FreeU Advance` 节点，需删除该节点\n\n4️⃣ **PixelOE**\n   - 功能：一键像素化\n   - 安装地址：[GitHub下载或克隆](https://github.com/KohakuBlueleaf/PixelOE)\n\n5️⃣ **WeiLin-ComfyUI-prompt-all-in-one**\n   - 功能：核心提示词构建与Lora管理\n   - 安装地址：[GitHub下载或克隆](https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one#)\n\n---\n\n### 三、模型需求（必须下，否则放大会报错！）\n1️⃣ **4x-Ultrasharp（放大模型）**\n   - [下载地址（Civitai）](https://civitai.com/models/116225/4x-ultrasharp)\n   - 路径：`你的ComfyUI根目录\\models\\upscale_models`\n   - 当然，你也可以用自己的，找到控制台部分把放大模型换成自己的就行\n\n2️⃣ **CN模型（Tile放大）**\n   - 下载地址-SDXL：[CivitAI](https://civitai.com/models/136070?modelVersionId=658202)\n   - 下载地址-NoobAI：[CivitAI](https://civitai.com/models/929685?modelVersionId=1239319)\n   - 存放路径：`你的ComfyUI根目录\\models\\controlnet`\n   - 二选一下载，如果用的是Noob系列的模型，建议用第二个\n\n（需要去旁边右侧的全局平铺控制网模型设置处改成自己下载的版本,当然，你也可以用自己的）\n⚠️ 不选会报错哦...\n\n3️⃣ **细化模型**\n   - 下载地址：Discord工作流帖子顶楼有指路（细化检测模型地址）\n\n---\n\n### ⚠️报错解决方案\n1️⃣ **基础检查**\n   - 更新ComfyUI内核和插件（使用秋叶管理器 → 版本管理 → 稳定版最新内核 + 扩展一键更新）\n\n2️⃣ **模型与插件检查**\n   - 检查WeiLin提示词中是否包含未安装的Lora\n   - 确认额外模型已下载并存放至正确路径\n   - 确认大模型加载节点使用的底模是你已经拥有的（工作流本身没有自带大模型！！！）\n\n3️⃣ **网络问题**\n   - 确保梯子开启**TUN模式**（服务模式的小地球图标变绿）"
-      ],
-      "color": "#8e1414",
-      "bgcolor": "#7a0000"
-    },
-    {
       "id": 1650,
       "type": "easy imagePixelPerfect",
       "pos": [
@@ -26682,7 +26656,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 250,
+      "order": 249,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -26727,7 +26701,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 251,
+      "order": 250,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -26816,7 +26790,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 252,
+      "order": 251,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -26849,7 +26823,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 253,
+      "order": 252,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -26875,7 +26849,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 254,
+      "order": 253,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -26901,7 +26875,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 255,
+      "order": 254,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -27015,7 +26989,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 256,
+      "order": 255,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -27197,7 +27171,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 257,
+      "order": 256,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -27269,8 +27243,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -27324,8 +27296,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -27378,8 +27348,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -27440,7 +27408,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 258,
+      "order": 257,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -27475,7 +27443,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 259,
+      "order": 258,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -27566,7 +27534,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 260,
+      "order": 259,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -27699,7 +27667,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 261,
+      "order": 260,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -27749,7 +27717,7 @@
         "Node name for S&R": "ShowText|pysssss"
       },
       "widgets_values": [
-        "dishwasher1910,(fuya \\(tempupupu\\):0.8),(shion \\(mirudakemann\\):0.6),(wada arco:1.1),bartolomeobari,(michking:0.6),1girl,yuel \\(granblue fantasy\\),granblue fantasy,animal ears,anus,bell,blue hair,blush,breasts,completely nude,erune,fang,female pubic hair,fox ears,fox shadow puppet,hair ornament,jingle bell,large breasts,leg up,long hair,looking at viewer,nipples,nude,open mouth,pubic hair,pussy,red eyes,smile,solo focus,spread legs,spread pussy,sweat,on back,thighs,feet,navel,hetero,barefoot,lying,hair bell,soles,toes,very long hair,areolae,tail,fox tail,fox girl,ass visible through thighs,animal ear fluff,,masterpiece,best quality,newest,absurdres,highres,very awa"
+        "1girl,yuel \\(granblue fantasy\\),granblue fantasy,animal ears,anus,bell,blue hair,blush,breasts,completely nude,erune,fang,female pubic hair,fox ears,fox shadow puppet,hair ornament,jingle bell,large breasts,leg up,long hair,looking at viewer,nipples,nude,open mouth,pubic hair,pussy,red eyes,smile,solo focus,spread legs,spread pussy,sweat,on back,thighs,feet,navel,hetero,barefoot,lying,hair bell,soles,toes,very long hair,areolae,tail,fox tail,fox girl,ass visible through thighs,animal ear fluffmasterpiece,best quality,newest,absurdres,highres,very awa"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -27881,7 +27849,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 262,
+      "order": 261,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -27970,7 +27938,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 263,
+      "order": 262,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28005,7 +27973,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 264,
+      "order": 263,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28038,7 +28006,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 265,
+      "order": 264,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28129,7 +28097,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 266,
+      "order": 265,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28196,8 +28164,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -28218,7 +28184,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 267,
+      "order": 266,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28359,7 +28325,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 268,
+      "order": 267,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28395,7 +28361,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 269,
+      "order": 268,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28431,7 +28397,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 270,
+      "order": 269,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28518,7 +28484,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 271,
+      "order": 270,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28554,7 +28520,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 272,
+      "order": 271,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28646,7 +28612,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 273,
+      "order": 272,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28679,7 +28645,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 274,
+      "order": 273,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -28802,8 +28768,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -28912,8 +28876,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -28975,7 +28937,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 275,
+      "order": 274,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -29075,15 +29037,15 @@
           "link": 2162
         },
         {
-          "name": "images",
+          "name": "system_prompt_input",
           "shape": 7,
-          "type": "IMAGE",
+          "type": "STRING",
           "link": null
         },
         {
-          "name": "extra_parameters",
+          "name": "user_prompt_input",
           "shape": 7,
-          "type": "DICT",
+          "type": "STRING",
           "link": null
         },
         {
@@ -29197,13 +29159,7 @@
         "",
         "",
         "",
-        "",
-        100,
-        "",
-        true,
-        "",
-        "",
-        false
+        ""
       ],
       "color": "#223",
       "bgcolor": "#335"
@@ -29261,7 +29217,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 276,
+      "order": 275,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -29374,8 +29330,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -29440,7 +29394,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 277,
+      "order": 276,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -29483,7 +29437,7 @@
         "collapsed": true,
         "pinned": true
       },
-      "order": 278,
+      "order": 277,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -29553,8 +29507,6 @@
         "Node name for S&R": "easy promptConcat"
       },
       "widgets_values": [
-        "",
-        "",
         ""
       ],
       "color": "#233",
@@ -29574,7 +29526,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 279,
+      "order": 278,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -29740,7 +29692,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 280,
+      "order": 279,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -29775,7 +29727,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 281,
+      "order": 280,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -29810,7 +29762,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 282,
+      "order": 281,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30041,7 +29993,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 283,
+      "order": 282,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30119,7 +30071,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 284,
+      "order": 283,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -30199,7 +30151,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 285,
+      "order": 284,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30378,7 +30330,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 286,
+      "order": 285,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30411,7 +30363,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 287,
+      "order": 286,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30444,7 +30396,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 288,
+      "order": 287,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30707,7 +30659,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 289,
+      "order": 288,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30788,7 +30740,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 290,
+      "order": 289,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30822,7 +30774,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 291,
+      "order": 290,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -30955,7 +30907,7 @@
       },
       "widgets_values": [
         "lanczos",
-        1024260330629920,
+        13740772261084,
         "randomize",
         30,
         10,
@@ -31246,7 +31198,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 292,
+      "order": 291,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -31359,7 +31311,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 293,
+      "order": 292,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -31397,7 +31349,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 294,
+      "order": 293,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -31545,7 +31497,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 295,
+      "order": 294,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -31697,7 +31649,7 @@
         "Node name for S&R": "UltimateSDUpscaleNoUpscale"
       },
       "widgets_values": [
-        1024260330629920,
+        13740772261084,
         "randomize",
         10,
         7,
@@ -31789,7 +31741,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 296,
+      "order": 295,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -31962,7 +31914,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 297,
+      "order": 296,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -31994,7 +31946,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 298,
+      "order": 297,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32215,7 +32167,7 @@
       "widgets_values": [
         "simple",
         "CPU",
-        1024260330629920,
+        13740772261084,
         "randomize",
         0.8000000000000002,
         0
@@ -32343,7 +32295,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 299,
+      "order": 298,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32378,7 +32330,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 300,
+      "order": 299,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32413,7 +32365,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 301,
+      "order": 300,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32446,7 +32398,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 302,
+      "order": 301,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32564,7 +32516,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 303,
+      "order": 302,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32603,7 +32555,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 304,
+      "order": 303,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32638,7 +32590,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 305,
+      "order": 304,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32672,7 +32624,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 306,
+      "order": 305,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32710,7 +32662,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 307,
+      "order": 306,
       "mode": 0,
       "inputs": [
         {
@@ -32767,7 +32719,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 308,
+      "order": 307,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -32815,7 +32767,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 309,
+      "order": 308,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -32940,7 +32892,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 310,
+      "order": 309,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -32966,7 +32918,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 311,
+      "order": 310,
       "mode": 0,
       "inputs": [
         {
@@ -33008,6 +32960,32 @@
       ],
       "color": "#222",
       "bgcolor": "#000"
+    },
+    {
+      "id": 396,
+      "type": "MarkdownNote",
+      "pos": [
+        360,
+        -450
+      ],
+      "size": [
+        630,
+        1540
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 311,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "⚠️ 使用须知 ⚠️",
+      "properties": {},
+      "widgets_values": [
+        "### ✨发布与更新地址 →\n[点击加入类脑DC服务器（需要进入后答题才可看见工作流帖子）](https://discord.gg/6kdVgVgcRx)\n\n[类脑Discord频道帖子地址](https://discord.com/channels/1134557553011998840/1292880055193567263)\n\n[Github地址（可能不是最新的）](https://github.com/2515448788/ShiQi_Workflow)\n\n---\n\n### 一、你必须知道的一些事情\n⚠️ 检测插件缺失前请使用秋叶管理器**更新你的内核和插件**！（版本管理→内核/扩展→右上角一键更新）\n   - ComfyUI-Manager插件不是最新的的话会有缺失插件检测不到\n   - 内核不是最新的话工作流有可能报错！\n\n⚠️ **必要资源下载和插件安装需要开启梯子的【TUN模式】**\n- 开启教程：[点击跳转](https://discord.com/channels/1134557553011998840/1292880055193567263/1340881769595142226)\n\n⚠️ 可通过 **ComfyUI-Manager插件** 一键检测缺失的大部分插件\n- 有几个插件检测不到要手动下，地址在下面的**重要插件需求**部分，推荐学习一下**Git的使用以及克隆命令**，直接从Git下载到Custom Nodes文件夹而不是克隆的话，会导致秋叶管理器无法检测到插件更新！\n\n⚠️ **ComfyUI-Manager介绍与使用教程** \n- 必看\n   ▶️ [B站视频教程](https://www.bilibili.com/video/BV1pZ421b7t7/?share_source=copy_web&vd_source=bfc16ddc8978f586710cbdc506c6b4f0)\n\n⚠️ **缺失的节点名称 ≠ 节点包名称!**\n\n⚠️ **插件文件夹路径：**\n   `你的ComfyUI根目录/custom_nodes`\n\n⚠️ **工作流分区跳转快捷键：**\n   - 数字1键 -> 跳转到底模与提示词编辑区\n   - 数字2键 -> 跳转到底图选择区\n   - 数字3键 -> 跳转到图像对比区\n   - 数字4键 -> 跳转到组管理区\n   - 数字5键 -> 跳转到参数控制区\n   - 数字6键 -> 跳转到可选文生图附加功能区\n   - 数字7键 -> 跳转到可选独立功能区\n\n---\n\n### 二、插件需求（ComfyUI-Manger搜，搜不到就Git手动安装）\n\n1️⃣ **Impact Subpack**\n   - 功能：脸部手部检测\n   - 安装方式：ComfyUI Manager内搜索安装\n\n2️⃣ **pre_cfg_comfy_nodes_for_ComfyUI**\n   - 功能：部分加速功能支持\n   - 安装地址：[GitHub下载或克隆](https://github.com/Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI)\n\n3️⃣ **Comfy-WaveSpeed**\n   - 功能：加速出图\n   - 安装地址：[GitHub下载或克隆](https://github.com/chengzeyi/Comfy-WaveSpeed)\n   - **注意**：不兼容 `FreeU Advance` 节点，需删除该节点\n\n4️⃣ **PixelOE**\n   - 功能：一键像素化\n   - 安装地址：[GitHub下载或克隆](https://github.com/KohakuBlueleaf/PixelOE)\n\n5️⃣ **WeiLin-ComfyUI-prompt-all-in-one**\n   - 功能：核心提示词构建与Lora管理\n   - 安装地址：[GitHub下载或克隆](https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one#)\n\n6️⃣ **ComfyUI Noise**\n   - 功能：噪声注入，用于混合放大的细节增强功能\n   - 安装方式：ComfyUI Manager内搜索安装\n\n---\n\n### 三、模型需求（必须下，否则放大会报错！）\n1️⃣ **4x-Ultrasharp（放大模型）**\n   - [下载地址（Civitai）](https://civitai.com/models/116225/4x-ultrasharp)\n   - 路径：`你的ComfyUI根目录\\models\\upscale_models`\n   - 当然，你也可以用自己的，找到控制台部分把放大模型换成自己的就行\n\n2️⃣ **CN模型（Tile放大）**\n   - 下载地址-SDXL：[CivitAI](https://civitai.com/models/136070?modelVersionId=658202)\n   - 下载地址-NoobAI：[CivitAI](https://civitai.com/models/929685?modelVersionId=1239319)\n   - 存放路径：`你的ComfyUI根目录\\models\\controlnet`\n   - 二选一下载，如果用的是Noob系列的模型，建议用第二个\n\n（需要去旁边右侧的全局平铺控制网模型设置处改成自己下载的版本,当然，你也可以用自己的）\n⚠️ 不选会报错哦...\n\n3️⃣ **细化模型**\n   - 下载地址：Discord工作流帖子顶楼有指路（细化检测模型地址）\n\n---\n\n### ⚠️报错解决方案\n1️⃣ **基础检查**\n   - 更新ComfyUI内核和插件（使用秋叶管理器 → 版本管理 → 稳定版最新内核 + 扩展一键更新）\n\n2️⃣ **模型与插件检查**\n   - 检查WeiLin提示词中是否包含未安装的Lora\n   - 确认额外模型已下载并存放至正确路径\n   - 确认大模型加载节点使用的底模是你已经拥有的（工作流本身没有自带大模型！！！）\n\n3️⃣ **网络问题**\n   - 确保梯子开启**TUN模式**（服务模式的小地球图标变绿）"
+      ],
+      "color": "#8e1414",
+      "bgcolor": "#7a0000"
     }
   ],
   "links": [
@@ -38780,7 +38758,7 @@
       "VAE"
     ],
     [
-      2542,
+      2626,
       51,
       5,
       64,
@@ -38788,7 +38766,7 @@
       "VAE"
     ],
     [
-      2543,
+      2627,
       51,
       5,
       96,
@@ -38796,7 +38774,7 @@
       "VAE"
     ],
     [
-      2544,
+      2628,
       51,
       0,
       97,
@@ -38804,7 +38782,7 @@
       "PIPE_LINE"
     ],
     [
-      2545,
+      2629,
       51,
       1,
       97,
@@ -38812,7 +38790,7 @@
       "MODEL"
     ],
     [
-      2546,
+      2630,
       51,
       2,
       97,
@@ -38820,7 +38798,7 @@
       "CONDITIONING"
     ],
     [
-      2547,
+      2631,
       51,
       3,
       97,
@@ -38828,7 +38806,7 @@
       "CONDITIONING"
     ],
     [
-      2548,
+      2632,
       51,
       5,
       97,
@@ -38836,7 +38814,7 @@
       "VAE"
     ],
     [
-      2549,
+      2633,
       51,
       6,
       97,
@@ -38844,7 +38822,7 @@
       "CLIP"
     ],
     [
-      2550,
+      2634,
       51,
       0,
       134,
@@ -38852,7 +38830,7 @@
       "PIPE_LINE"
     ],
     [
-      2551,
+      2635,
       51,
       1,
       134,
@@ -38860,7 +38838,7 @@
       "MODEL"
     ],
     [
-      2552,
+      2636,
       51,
       2,
       134,
@@ -38868,7 +38846,7 @@
       "CONDITIONING"
     ],
     [
-      2553,
+      2637,
       51,
       3,
       134,
@@ -38876,7 +38854,7 @@
       "CONDITIONING"
     ],
     [
-      2554,
+      2638,
       51,
       5,
       134,
@@ -38884,7 +38862,7 @@
       "VAE"
     ],
     [
-      2555,
+      2639,
       51,
       6,
       134,
@@ -38892,7 +38870,7 @@
       "CLIP"
     ],
     [
-      2556,
+      2640,
       51,
       5,
       135,
@@ -38900,7 +38878,7 @@
       "VAE"
     ],
     [
-      2557,
+      2641,
       51,
       1,
       1119,
@@ -38908,7 +38886,7 @@
       "MODEL"
     ],
     [
-      2558,
+      2642,
       51,
       5,
       148,
@@ -38916,7 +38894,7 @@
       "VAE"
     ],
     [
-      2559,
+      2643,
       51,
       5,
       387,
@@ -38924,7 +38902,7 @@
       "VAE"
     ],
     [
-      2560,
+      2644,
       51,
       5,
       388,
@@ -38932,7 +38910,7 @@
       "VAE"
     ],
     [
-      2561,
+      2645,
       51,
       5,
       1230,
@@ -38940,7 +38918,7 @@
       "VAE"
     ],
     [
-      2562,
+      2646,
       51,
       5,
       1005,
@@ -38948,7 +38926,7 @@
       "VAE"
     ],
     [
-      2563,
+      2647,
       51,
       5,
       1759,
@@ -38956,7 +38934,7 @@
       "VAE"
     ],
     [
-      2564,
+      2648,
       51,
       0,
       141,
@@ -38964,7 +38942,7 @@
       "PIPE_LINE"
     ],
     [
-      2565,
+      2649,
       51,
       1,
       141,
@@ -38972,7 +38950,7 @@
       "MODEL"
     ],
     [
-      2566,
+      2650,
       51,
       2,
       141,
@@ -38980,7 +38958,7 @@
       "CONDITIONING"
     ],
     [
-      2567,
+      2651,
       51,
       3,
       141,
@@ -38988,7 +38966,7 @@
       "CONDITIONING"
     ],
     [
-      2568,
+      2652,
       51,
       5,
       141,
@@ -38996,455 +38974,7 @@
       "VAE"
     ],
     [
-      2569,
-      51,
-      6,
-      141,
-      6,
-      "CLIP"
-    ],
-    [
-      2570,
-      51,
-      5,
-      64,
-      1,
-      "VAE"
-    ],
-    [
-      2571,
-      51,
-      5,
-      96,
-      1,
-      "VAE"
-    ],
-    [
-      2572,
-      51,
-      0,
-      97,
-      0,
-      "PIPE_LINE"
-    ],
-    [
-      2573,
-      51,
-      1,
-      97,
-      1,
-      "MODEL"
-    ],
-    [
-      2574,
-      51,
-      2,
-      97,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      2575,
-      51,
-      3,
-      97,
-      3,
-      "CONDITIONING"
-    ],
-    [
-      2576,
-      51,
-      5,
-      97,
-      5,
-      "VAE"
-    ],
-    [
-      2577,
-      51,
-      6,
-      97,
-      6,
-      "CLIP"
-    ],
-    [
-      2578,
-      51,
-      0,
-      134,
-      0,
-      "PIPE_LINE"
-    ],
-    [
-      2579,
-      51,
-      1,
-      134,
-      1,
-      "MODEL"
-    ],
-    [
-      2580,
-      51,
-      2,
-      134,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      2581,
-      51,
-      3,
-      134,
-      3,
-      "CONDITIONING"
-    ],
-    [
-      2582,
-      51,
-      5,
-      134,
-      5,
-      "VAE"
-    ],
-    [
-      2583,
-      51,
-      6,
-      134,
-      6,
-      "CLIP"
-    ],
-    [
-      2584,
-      51,
-      5,
-      135,
-      1,
-      "VAE"
-    ],
-    [
-      2585,
-      51,
-      1,
-      1119,
-      0,
-      "MODEL"
-    ],
-    [
-      2586,
-      51,
-      5,
-      148,
-      1,
-      "VAE"
-    ],
-    [
-      2587,
-      51,
-      5,
-      387,
-      1,
-      "VAE"
-    ],
-    [
-      2588,
-      51,
-      5,
-      388,
-      8,
-      "VAE"
-    ],
-    [
-      2589,
-      51,
-      5,
-      1230,
-      8,
-      "VAE"
-    ],
-    [
-      2590,
-      51,
-      5,
-      1005,
-      1,
-      "VAE"
-    ],
-    [
-      2591,
-      51,
-      5,
-      1759,
-      1,
-      "VAE"
-    ],
-    [
-      2592,
-      51,
-      0,
-      141,
-      0,
-      "PIPE_LINE"
-    ],
-    [
-      2593,
-      51,
-      1,
-      141,
-      1,
-      "MODEL"
-    ],
-    [
-      2594,
-      51,
-      2,
-      141,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      2595,
-      51,
-      3,
-      141,
-      3,
-      "CONDITIONING"
-    ],
-    [
-      2596,
-      51,
-      5,
-      141,
-      5,
-      "VAE"
-    ],
-    [
-      2597,
-      51,
-      6,
-      141,
-      6,
-      "CLIP"
-    ],
-    [
-      2598,
-      51,
-      5,
-      64,
-      1,
-      "VAE"
-    ],
-    [
-      2599,
-      51,
-      5,
-      96,
-      1,
-      "VAE"
-    ],
-    [
-      2600,
-      51,
-      0,
-      97,
-      0,
-      "PIPE_LINE"
-    ],
-    [
-      2601,
-      51,
-      1,
-      97,
-      1,
-      "MODEL"
-    ],
-    [
-      2602,
-      51,
-      2,
-      97,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      2603,
-      51,
-      3,
-      97,
-      3,
-      "CONDITIONING"
-    ],
-    [
-      2604,
-      51,
-      5,
-      97,
-      5,
-      "VAE"
-    ],
-    [
-      2605,
-      51,
-      6,
-      97,
-      6,
-      "CLIP"
-    ],
-    [
-      2606,
-      51,
-      0,
-      134,
-      0,
-      "PIPE_LINE"
-    ],
-    [
-      2607,
-      51,
-      1,
-      134,
-      1,
-      "MODEL"
-    ],
-    [
-      2608,
-      51,
-      2,
-      134,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      2609,
-      51,
-      3,
-      134,
-      3,
-      "CONDITIONING"
-    ],
-    [
-      2610,
-      51,
-      5,
-      134,
-      5,
-      "VAE"
-    ],
-    [
-      2611,
-      51,
-      6,
-      134,
-      6,
-      "CLIP"
-    ],
-    [
-      2612,
-      51,
-      5,
-      135,
-      1,
-      "VAE"
-    ],
-    [
-      2613,
-      51,
-      1,
-      1119,
-      0,
-      "MODEL"
-    ],
-    [
-      2614,
-      51,
-      5,
-      148,
-      1,
-      "VAE"
-    ],
-    [
-      2615,
-      51,
-      5,
-      387,
-      1,
-      "VAE"
-    ],
-    [
-      2616,
-      51,
-      5,
-      388,
-      8,
-      "VAE"
-    ],
-    [
-      2617,
-      51,
-      5,
-      1230,
-      8,
-      "VAE"
-    ],
-    [
-      2618,
-      51,
-      5,
-      1005,
-      1,
-      "VAE"
-    ],
-    [
-      2619,
-      51,
-      5,
-      1759,
-      1,
-      "VAE"
-    ],
-    [
-      2620,
-      51,
-      0,
-      141,
-      0,
-      "PIPE_LINE"
-    ],
-    [
-      2621,
-      51,
-      1,
-      141,
-      1,
-      "MODEL"
-    ],
-    [
-      2622,
-      51,
-      2,
-      141,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      2623,
-      51,
-      3,
-      141,
-      3,
-      "CONDITIONING"
-    ],
-    [
-      2624,
-      51,
-      5,
-      141,
-      5,
-      "VAE"
-    ],
-    [
-      2625,
+      2653,
       51,
       6,
       141,
@@ -40100,10 +39630,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.6830134553650712,
+      "scale": 1.1000000000000005,
       "offset": [
-        -930.3342033490243,
-        828.9419215209856
+        -6.039688613843914,
+        119.33531204780479
       ]
     },
     "frontendVersion": "1.16.8",
