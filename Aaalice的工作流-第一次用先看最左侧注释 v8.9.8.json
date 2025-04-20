@@ -2,7 +2,7 @@
   "id": "50c78638-b617-40a5-9d1c-d4f66fbc6552",
   "revision": 0,
   "last_node_id": 1803,
-  "last_link_id": 2768,
+  "last_link_id": 2796,
   "nodes": [
     {
       "id": 9,
@@ -26973,7 +26973,7 @@
         "pinned": true
       },
       "order": 458,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "BOOLEAN",
@@ -27011,7 +27011,7 @@
         "pinned": true
       },
       "order": 253,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -27471,7 +27471,7 @@
         "pinned": true
       },
       "order": 544,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_true",
@@ -27527,7 +27527,7 @@
         "pinned": true
       },
       "order": 512,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "A",
@@ -27583,7 +27583,7 @@
         "pinned": true
       },
       "order": 258,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -27616,7 +27616,7 @@
         "pinned": true
       },
       "order": 460,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_true",
@@ -27672,7 +27672,7 @@
         "pinned": true
       },
       "order": 259,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -27707,7 +27707,7 @@
         "pinned": true
       },
       "order": 260,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -27740,7 +27740,7 @@
         "pinned": true
       },
       "order": 261,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -27777,7 +27777,7 @@
         "pinned": true
       },
       "order": 461,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "signal",
@@ -27831,7 +27831,7 @@
         "pinned": true
       },
       "order": 262,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -27867,7 +27867,7 @@
         "pinned": true
       },
       "order": 567,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "prompt1",
@@ -27918,7 +27918,7 @@
         "pinned": true
       },
       "order": 263,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -27951,7 +27951,7 @@
         "pinned": true
       },
       "order": 608,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_true",
@@ -28007,7 +28007,7 @@
         "pinned": true
       },
       "order": 462,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "signal",
@@ -28059,7 +28059,7 @@
         "pinned": true
       },
       "order": 264,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28095,7 +28095,7 @@
         "pinned": true
       },
       "order": 265,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28131,7 +28131,7 @@
         "pinned": true
       },
       "order": 266,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28164,7 +28164,7 @@
         "pinned": true
       },
       "order": 463,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "signal",
@@ -28218,7 +28218,7 @@
         "pinned": true
       },
       "order": 267,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28254,7 +28254,7 @@
         "pinned": true
       },
       "order": 268,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28290,7 +28290,7 @@
         "pinned": true
       },
       "order": 619,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_true",
@@ -28346,7 +28346,7 @@
         "pinned": true
       },
       "order": 269,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28379,7 +28379,7 @@
         "pinned": true
       },
       "order": 270,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28414,7 +28414,7 @@
         "pinned": true
       },
       "order": 513,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_true",
@@ -28470,7 +28470,7 @@
         "pinned": true
       },
       "order": 606,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "prompt1",
@@ -28522,7 +28522,7 @@
         "pinned": true
       },
       "order": 646,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_true",
@@ -28578,7 +28578,7 @@
         "pinned": true
       },
       "order": 620,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "prompt1",
@@ -28630,7 +28630,7 @@
         "pinned": true
       },
       "order": 655,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "*",
@@ -28671,7 +28671,7 @@
         "pinned": true
       },
       "order": 271,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28706,7 +28706,7 @@
         "pinned": true
       },
       "order": 637,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "on_true",
@@ -28762,7 +28762,7 @@
         "pinned": true
       },
       "order": 464,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "BOOLEAN",
@@ -28800,7 +28800,7 @@
         "pinned": true
       },
       "order": 272,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -28838,7 +28838,7 @@
         "pinned": true
       },
       "order": 607,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "text",
@@ -28882,7 +28882,7 @@
         "pinned": true
       },
       "order": 518,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "prompt1",
@@ -28932,7 +28932,7 @@
         "pinned": true
       },
       "order": 664,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "text",
@@ -32280,7 +32280,7 @@
         "pinned": true
       },
       "order": 303,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -32316,7 +32316,7 @@
         "pinned": true
       },
       "order": 304,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -32358,7 +32358,7 @@
         "pinned": true
       },
       "order": 593,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "label": "model",
@@ -32566,7 +32566,7 @@
         "pinned": true
       },
       "order": 581,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "text",
@@ -32612,7 +32612,7 @@
         "pinned": true
       },
       "order": 478,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "prompt1",
@@ -32663,7 +32663,7 @@
         "pinned": true
       },
       "order": 306,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -32701,7 +32701,7 @@
         "pinned": true
       },
       "order": 307,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [],
       "title": "关于AI提示词处理",
@@ -32906,7 +32906,7 @@
         "pinned": true
       },
       "order": 310,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -32945,7 +32945,7 @@
         "pinned": true
       },
       "order": 311,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -38787,7 +38787,7 @@
       "*"
     ],
     [
-      2741,
+      2769,
       51,
       5,
       64,
@@ -38795,7 +38795,7 @@
       "VAE"
     ],
     [
-      2742,
+      2770,
       51,
       5,
       96,
@@ -38803,7 +38803,7 @@
       "VAE"
     ],
     [
-      2743,
+      2771,
       51,
       0,
       97,
@@ -38811,7 +38811,7 @@
       "PIPE_LINE"
     ],
     [
-      2744,
+      2772,
       51,
       1,
       97,
@@ -38819,7 +38819,7 @@
       "MODEL"
     ],
     [
-      2745,
+      2773,
       51,
       2,
       97,
@@ -38827,7 +38827,7 @@
       "CONDITIONING"
     ],
     [
-      2746,
+      2774,
       51,
       3,
       97,
@@ -38835,7 +38835,7 @@
       "CONDITIONING"
     ],
     [
-      2747,
+      2775,
       51,
       5,
       97,
@@ -38843,7 +38843,7 @@
       "VAE"
     ],
     [
-      2748,
+      2776,
       51,
       6,
       97,
@@ -38851,7 +38851,7 @@
       "CLIP"
     ],
     [
-      2749,
+      2777,
       51,
       0,
       134,
@@ -38859,7 +38859,7 @@
       "PIPE_LINE"
     ],
     [
-      2750,
+      2778,
       51,
       1,
       134,
@@ -38867,7 +38867,7 @@
       "MODEL"
     ],
     [
-      2751,
+      2779,
       51,
       2,
       134,
@@ -38875,7 +38875,7 @@
       "CONDITIONING"
     ],
     [
-      2752,
+      2780,
       51,
       3,
       134,
@@ -38883,7 +38883,7 @@
       "CONDITIONING"
     ],
     [
-      2753,
+      2781,
       51,
       5,
       134,
@@ -38891,7 +38891,7 @@
       "VAE"
     ],
     [
-      2754,
+      2782,
       51,
       6,
       134,
@@ -38899,7 +38899,7 @@
       "CLIP"
     ],
     [
-      2755,
+      2783,
       51,
       5,
       135,
@@ -38907,7 +38907,7 @@
       "VAE"
     ],
     [
-      2756,
+      2784,
       51,
       1,
       1119,
@@ -38915,7 +38915,7 @@
       "MODEL"
     ],
     [
-      2757,
+      2785,
       51,
       5,
       148,
@@ -38923,7 +38923,7 @@
       "VAE"
     ],
     [
-      2758,
+      2786,
       51,
       5,
       387,
@@ -38931,7 +38931,7 @@
       "VAE"
     ],
     [
-      2759,
+      2787,
       51,
       5,
       388,
@@ -38939,7 +38939,7 @@
       "VAE"
     ],
     [
-      2760,
+      2788,
       51,
       5,
       1230,
@@ -38947,7 +38947,7 @@
       "VAE"
     ],
     [
-      2761,
+      2789,
       51,
       5,
       1005,
@@ -38955,7 +38955,7 @@
       "VAE"
     ],
     [
-      2762,
+      2790,
       51,
       5,
       1759,
@@ -38963,7 +38963,7 @@
       "VAE"
     ],
     [
-      2763,
+      2791,
       51,
       0,
       141,
@@ -38971,7 +38971,7 @@
       "PIPE_LINE"
     ],
     [
-      2764,
+      2792,
       51,
       1,
       141,
@@ -38979,7 +38979,7 @@
       "MODEL"
     ],
     [
-      2765,
+      2793,
       51,
       2,
       141,
@@ -38987,7 +38987,7 @@
       "CONDITIONING"
     ],
     [
-      2766,
+      2794,
       51,
       3,
       141,
@@ -38995,7 +38995,7 @@
       "CONDITIONING"
     ],
     [
-      2767,
+      2795,
       51,
       5,
       141,
@@ -39003,7 +39003,7 @@
       "VAE"
     ],
     [
-      2768,
+      2796,
       51,
       6,
       141,
@@ -39659,10 +39659,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.620921323059155,
+      "scale": 1.1,
       "offset": [
-        -1039.4121642128737,
-        861.1817053570749
+        -2128.2264577634273,
+        962.6015749435855
       ]
     },
     "frontendVersion": "1.16.8",
