@@ -1,5 +1,5 @@
 # 工作流更新日志和安装教程视频详见类脑Discord帖子
-## [点击加入类脑DC服务器（需要答题）](https://discord.gg/6kdVgVgcRx)
+## [类脑DC服务器（需要答题）](https://discord.gg/6kdVgVgcRx)
 ## [工作流帖子地址](https://discord.com/channels/1134557553011998840/1292880055193567263)
 
 #  📋主要功能列表
