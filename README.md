@@ -1,5 +1,5 @@
 # 工作流更新日志和安装教程视频详见我的DC服务器
-## [我的服务器地址](https://discord.gg/5SNaS6Fp)
+# [我的服务器地址](https://discord.gg/aaalice)
 
 
 # 🌟 **ComfyUI 工作流功能指南 | 持续更新中**
