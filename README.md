@@ -1,6 +1,6 @@
 # Aaalice的ComfyUI工作流
 
-## **📢 [加入Discord服务器获取更新日志和安装教程视频](https://discord.gg/aaalice)**
+## **📢 [加入Discord服务器获取更新日志和安装教程视频](https://discord.gg/R48n6GwXzD)**
 
 ---
 
