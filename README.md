@@ -1,3 +1,10 @@
+> [!CAUTION]
+> ### 🚚 项目已迁移
+>
+> 本仓库已停止新功能开发，仅保留历史工作流与文档。新版工作流及后续更新已迁移至 **[Aaalice-Workflows](https://github.com/Aaalice233/Aaalice-Workflows)**，请前往新项目获取最新版本。
+>
+> 配套节点请查看 **[ComfyUI-Aaalice-Nodes](https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes)**；工作流管理与分享功能请查看 **[ComfyUI-Aaalice-Workflow-Hub](https://github.com/Aaalice233/ComfyUI-Aaalice-Workflow-Hub)**。
+
 # Aaalice的ComfyUI工作流
 
 ## **📢 [加入Discord服务器获取更新日志和安装教程视频](https://discord.gg/R48n6GwXzD)**
